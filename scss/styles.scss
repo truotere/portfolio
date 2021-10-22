@@ -25,6 +25,7 @@
         10. Contact Styles
         11. Optional Section Styles
         12. Media Queries
+        13. Certification Styles
 */
 
 /*
@@ -998,4 +999,68 @@ footer {
         }
     }
 
+}
+
+/*
+    -------------------------------
+    ----- 13. Certification Styles -----
+    -------------------------------
+*/
+
+#certification {
+    padding: 50px 15px;
+    border-bottom: 1px solid $border;
+    text-align: center;
+
+    h2 {
+        color: $heading;
+        margin-bottom: 50px;
+    }
+}
+
+.certification {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.certification-image {
+    float: left;
+}
+
+.certification-info {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 300px;
+    padding: 15px;
+
+    h3 {
+        font-size: 1.5em;
+        font-weight: 300;
+        color: $heading;
+        margin: 0 0 15px 0;
+    }
+
+    p {
+        color: $text;
+        margin: 0 0 15px 0;
+        font-size: 0.9em;
+    }
+}
+
+.no-image {
+    .certification-info {
+        position: relative;
+        margin: 0;
+        padding: 30px 15px;
+        transform: none;
+    }
+}
+
+#more-certification {
+    display: none;
 }
