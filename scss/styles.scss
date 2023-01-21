@@ -35,12 +35,12 @@
 */
 
 // Define base and accent colors
-$base-color: #3498db;
+$base-color: #2614a9;
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
-$background: #fff;
-$background-alt: #f2f2f5;
+$background: url(images/blush.png);
+$background-alt: url(images/dusk.png);
 
 // Define border colors
 $border: #dcd9d9;
@@ -647,7 +647,7 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
+    background-image: url(images/blush.png);
     border-radius: 4px;
 }
 
@@ -809,7 +809,7 @@ footer {
     margin: 0 auto 30px auto;
     padding: 15px;
     border: 1px solid $border;
-    background: #fff;
+    background-image: url(images/blush.png);
     text-align: left;
 
     h3 {
@@ -1023,7 +1023,7 @@ footer {
     max-width: 900px;
     margin: 0 auto 30px auto;
     overflow: hidden;
-    background: #fff;
+    background-image: url(images/blush.png);
     border-radius: 4px;
 }
 
